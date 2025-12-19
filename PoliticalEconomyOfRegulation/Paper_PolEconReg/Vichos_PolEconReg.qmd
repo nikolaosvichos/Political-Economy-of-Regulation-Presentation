@@ -1,0 +1,194 @@
+---
+title: "Populist Pressure, Public Opinion, and Central Bank Independence"
+subtitle: "A Theoretical Framework on How Public Opinion Mediates Populist Attacks on Central Bank Independence"
+date: today
+date-format: long
+author:
+  - name: "Nikolaos Vichos"
+    # affiliations:
+    #   - ref: sciencespo
+bibliography: references.bib
+table-placement: default
+# affiliations:
+#   - id: sciencespo
+#     name: Centre for European Studies and Comparative Politics, CNRS, Sciences Po, Paris, France.
+abstract: |
+  \begin{spacing}{0.95}
+  Populist leaders have increasingly targeted independent regulatory agencies, yet existing research has focused primarily on the institutional, legal, and market-based constraints shaping the effectiveness of such attacks. This paper shifts attention to the role of public opinion. Focusing on central banks as a most-likely case of an independent regulatory agency, it develops a theoretical framework that conceptualizes populist attacks as public-facing bargaining processes in which de facto independence is contingent on mass politics. Building on work that models conflicts between governments and central banks as episodes of strategic escalation, the paper argues that the success of populist pressure depends on two dimensions of public opinion: support for the incumbent launching the attack and trust in the central bank. When public opinion aligns with the government and is skeptical of technocratic authority, populist pressure is more likely to translate into monetary accommodation; when it does not, central banks are better positioned to resist. By integrating insights from the literatures on regulatory politicization, populism, and judicial delegitimation, the paper highlights public opinion as a central but underexplored mediator of populist challenges to independent institutions.
+  \end{spacing}
+linestretch: 1.19
+filters:
+  - kapsner/authors-block
+format:
+  wordcount-pdf:
+    pdf-engine: lualatex
+    keep-tex: true
+    toc: false
+    toc-location: own-page
+    abstract-location: own-page
+    title-location: own-page
+    link-citations: true
+    linkcolor: black       
+    urlcolor: black        
+    citecolor: black       
+    fontsize: 11pt
+    sansfont: "Latin Modern Roman"
+    mainfont: "Latin Modern Roman"
+    mermaid-format: png
+    geometry:
+      - top=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+      - heightrounded
+    include-in-header:
+      text: |
+        \usepackage{setspace}
+        \linespread{1.2}
+        \usepackage{changepage}
+        \usepackage{longtable}
+        \usepackage{nameref}
+        \usepackage{hyperref}
+        \usepackage{booktabs}
+        \usepackage{tabularray}
+        \usepackage{float}
+number-sections: true
+number-depth: 4
+---
+
+\pagenumbering{gobble}
+
+{{< pagebreak >}}
+
+\thispagestyle{empty}
+
+::: {##toc}
+\tableofcontents
+:::
+
+{{< pagebreak >}}
+
+\pagenumbering{arabic}
+
+# **Introduction**
+
+Independent regulatory agencies (IRAs) are seemingly under constant attack: whether one looks at Trump pressuring the Federal Reserve to lower interest rates [@mcferran2025], Bolsonaro curtailing the independence of Brazil's environmental agencies [@bersch2024], or the PiS's vocal criticism of Polish Ombudsman Adam Bodnar [@mazur2021], the overarching picture is one of IRAs' independence being continuously threatened. Most importantly, the culprit tends to be the same in most cases: populist leaders of the executive branch.
+
+This trend is an important cause for concern. Even though independent regulators should not be insulated from criticism on the grounds of their often limited accountability, transparency, and responsibility [@maggetti2010; @tripathi2018], their independence also enables them to effectively execute their role. Non-independent politicized regulators tend to suffer systematic declines in organizational capacity, as political interference reshapes the incentives, composition, and behavior of the individuals operating within them [@moynihan2025]. Prioritizing political loyalty over expertise leads to the recruitment of more politically connected but less competent personnel, while politicized work environments increase turnover and induce the exit of experienced officials [@colonnelli2020; @richardson2019; @xu2018]. High turnover also erodes institutional memory and managerial competence, as new political appointees typically lack task-specific experience and remain in office for short periods [@gallo2012]. This weakened bureaucratic capacity that results from a lack of independence also increases vulnerability to waste and politically motivated spending, as reduced oversight and reliance on politically aligned contractors raise costs and facilitate favoritism [@dahlstrom2021]. Finally, beyond capacity, democratic responsiveness is also weakened, as politicized agencies are not only less responsive to information requests from the public or legislatures [@wood2017] but also less able to achieve policy goals [@moynihan2025].
+
+Despite its concerning nature, however, this trend might also seem unsurprising when closely considering the specific nature of both the 'perpetrators' (the populist executive) and the 'victim' (IRAs). As non-elected bodies that are staffed with technical experts and tasked with overseeing essential tenets of public policy yet remain formally independent from political control, IRAs can easily become the caricature of the "elites" in populists' Manichean worldview of a society divided "into two homogeneous and antagonistic groups, ‘the pure people’ versus ‘the corrupt elite’" [@mudde2004, 543]. This specific framing has been used to target a broad range of different IRAs, including central banks, environmental agencies, or competition regulators [@bernatt2025; @bersch2024; @jung2025]
+
+Ironically, one aspect that remains unclear is the role of the public—the primary 'audience' of the populists—in enabling or constraining the effectiveness of these attacks. By occupying a central role in the populists' narrative defending the 'real' people's interests by launching these attacks, the public could serve as a decisive mechanism that mediates the success or failure of efforts to erode institutional autonomy. Despite existing literature having examined how third factors like institutions, fiscal rules, or international financial markets might constrain or exacerbate the impact of populists' attacks on independent regulators, the role of public opinion has been notably overlooked.
+
+To understand how public opinion might mediate the effectiveness of populist attacks on IRAs, I focus specifically on central banks. Though they might not be the most 'typical' case of a regulator under attack due to their more well-known role among the public, I view central banks as worth studying exactly due to their prominence as the most visible and widely recognized IRA [@mcferran2025]. The high salience of their mandate—which includes the promotion of price stability and, in some cases, full employment not only means that attempts at political influence might be more likely [@benoit2021; @ringquist2003] but also makes it more likely that the public will pay attention during these attacks. This makes them a 'most likely' case study where the mechanism behind the mediating role of the public is most likely to be observed [@flyvbjerg2006]. I thus pose the following research question:
+
+\begin{adjustwidth}{1em}{1em}
+\emph{Does public opinion mediate the effectiveness of populist attacks against the independence of central banks?}
+\end{adjustwidth}
+
+To address this question, I propose a theoretical framework that conceptualizes populist attacks on central banks as public-facing bargaining processes in which de facto independence is contingent on mass politics. Building on existing work that models conflicts between governments and central banks as episodes of strategic escalation [@gavin2023], I argue that the effectiveness of populist pressure depends not only on institutional and economic constraints, but also on public opinion. In particular, I theorize that public support for the incumbent launching the attack and public trust in the central bank jointly condition whether populist pressure translates into monetary accommodation.
+
+# **Literature Review**
+
+This paper draws from existing literature on (i) the politicization of regulatory processes, (ii) populism and the relationship between populist leaders and bureaucracies, and (iii) specific literature on attacks against central banks and the factors that constrain or exacerbate their frequency or intensity. After a brief discussion of some key concepts and definitions, I present each of the three aforementioned strands.
+
+## Definitions
+
+To understand what a politicized IRA is, one must also understand what independence means within the context of regulatory agencies.
+
+An agency's independence refers to "the degree to which the agency takes day-to-day decisions without the interference of politicians—in terms of the offering of inducements or threats—and/or the consideration of political preferences" [@hanretty2013, 196]. This independence can be categorized as formal/de jure, meaning that the legal framework governing the agency endows it with a certain degree of independence from politics, or informal/de facto, which refers to the extent to which "the agency operates independently from politics in practice" [@hanretty2013, 196].
+
+This definition, along with its underlying dichotomy, applies to central banks as well. Most central banks are formally independent, enjoying important legal autonomy to "adjust interest rates and other policy tools to fight inflation without political interference" [@gavin2023, 1190]. Their informal independence, however, often comes under strain [@goodhart2018; @jung2025]. This paper thus focuses on central banks' de facto independence: this is because of the specific nature of the strategies populists employ when undermining the independent institutions, maintaining their legal/formal structure while severely undercutting their capacity to deliver and resist [@bauer2021; @yesilkagit2025; @moynihan2021].
+
+## Politicization of Regulatory Processes
+
+For the purposes of this paper, the opposite of a *de facto* independent regulatory agency is a politicized one. I refrain from adopting overly narrow definitions that focus exclusively on the staffing of agencies by politicized bureaucrats[^1] or overly broad definitions that risk 'overdetecting' politicization by focusing on phenomena as broad as the "increasing awareness of, and mobilization around, regulation by non-majoritarian institutions" [@onoda2024, 1348]. Instead, I propose a definition of politicization that implicitly recognizes politics as an integral and ever-present part of regulatory processes [@short2021] (thereby avoiding the collapse of routine political oversight into politicization itself) but refrains from overly narrow criteria. Politicization thus refers to a*ny systematic influence on regulatory decision-making that prioritizes political considerations over expertise or established rules.* This can take place through changes in not only the staffing of agencies, but also their structure, resource allocation, or the norms governing them [@moynihan2021].
+
+[^1]: For example, @ennser-jedenastik2016 [p. 509] defines politicization as the appointment, retention, promotion, or dismissal (if possible) of bureaucrats based on political criteria rather than merit."
+
+The study of regulatory politicization has followed distinct trajectories across geographic contexts, particularly between the United States and Western Europe. As @benoit2021 argues, U.S.-based scholarship has tended to emphasize politicization by relying on principal–agent models that foreground political control and agency loss, often portraying regulators as highly responsive to political principals. However, this literature may overstate the extent of politicization by focusing on politicians’ incentives while underestimating their limited capacity to monitor and steer regulatory action, as well as regulators’ own agency and reputational constraints. In contrast, European scholarship has often underemphasized politicization, focusing instead on agencies’ legal independence, expertise, and internal dynamics, and frequently treating political intervention as marginal or ineffective. This divide points toward the need for a broader understanding of politicization that moves beyond formal control and recognizes how regulators respond to political signals from multiple actors, without necessarily sacrificing their autonomy.
+
+Politicization and informal independence are mutually exclusive, at least for the purposes of this paper; however, the relationship of politicization with *formal* independence is significantly more complex. At first sight, greater levels of formal independence should lead to lower politicization. This is supported by the findings of @benoit2023: in studying ex-ante and ex-post legislative involvement in the creation of 48 IRAs in France, they find that agencies that were formally designed to allow greater participation by legislators were indeed subject to greater levels of political scrutiny. Nevertheless, findings by @ennser-jedenastik2016 and @onoda2024 partly contradict this. The former, in a large-N study looking at the relationship between measures of formal independence and the partisan background of bureaucrats, finds that high levels of legal independence lead to an increased likelihood of individuals with party ties being appointed. This suggests that institutions might create incentives to undermine non-interference norms. Onoda's (2024) findings represent a middle solution connecting the two aforementioned authors: focusing on drug rationing policies in England and France, he finds that the degree of initial independence/delegation can determine politicization-driven policy change. Whereas low levels of initial delegation lead to greater policy stability because elected politicians intervened to prevent unpopular decisions, highly delegated settings suffered from important policy instability due to the counter-mobilization against the unpopular measures taken by the regulator.
+
+Beyond formal independence, the extent of politicization also depends on more public-facing factors such as the regulator's reputation or the salience and technical complexity of the issue at hand. In studying IRAs' responses to public opinion, @maor2013 find that the Israeli banking regulator kept silent on issues (i) where it enjoys a stronger reputation or (ii) that fall outside its jurisdiction but responded to opinions targeting issues where it was reputationally weaker or that touched upon its core operations. Similarly, @ringquist2003 examine four different regulatory areas that vary in complexity and salience and find that public salience has a positive effect on the willingness of legislators to intervene to direct the behavior of IRAs, especially in less complex areas like consumer protection. These findings suggest that, despite the seemingly technical and detached nature of regulation, public opinion remains central, with not only IRAs but also their principals (politicians) paying close attention to changes in public mood.
+
+The centrality of public opinion is likely to increase even more as a result of the "declining appeal of valence politics" [@hay2019, 389]. Focusing on the 2016 Brexit referendum, @hay2019 argue that Remain’s framing of Brexit as a “valence issue”—technical and presumably uncontroversial questions around which there should be widespread agreement—proved less effective at mobilizing electoral participation than Leave’s positional framing, which cast Brexit as a matter of political choice and popular sovereignty. More broadly, their analysis situates this dynamic within a longer-term erosion of “expert paternalism,” [@hay2020] in which trust in insulated expertise as a basis for depoliticized governance has weakened, and policy domains once treated as technical have become sites of political contestation. It is within this context of re-politicization that populist actors are able to mobilize public opinion against expert-led institutions, a theme taken up explicitly in the populism literature.
+
+## Populism and Attacks on Bureaucracies and Regulatory Independence
+
+Rather than conceiving of populism as a political strategy [@weyland2017] or a style of economic policy-making [@sachs1989], I instead rely on the ideational approach defining populism as "an ideology that considers society to be ultimately separated into two homogeneous and antagonistic groups, ‘the pure people’ versus ‘the corrupt elite’, and which argues that politics should be an expression of the volonté générale (general will) of the people" [@mudde2004]. Crucially, this definition goes against authors—including in the domain of regulation—who assume a specific set of policies such as economic expansionism [@sachs1989, @goodhart2018]. Instead, I recognize that the governing style and policy substance of populist governments are likely to be quite diverse, especially between populists on opposite sides of the spectrum [@bugaric2019; @mudde2013].
+
+At the same time, however, I also argue that their Manichean framing and anti-elitist/anti-pluralist bent also predispose them to adopt a particularly hostile position toward counter-majoritarian institutions. This is most commonly applied to the study of liberal democratic backsliding, with populists rejecting its 'liberal' components such as the rule of law, minority protections, or the separation of powers; however, I argue that this applies equally well to IRAs not only due to their counter-majoritarian character but also as a result of their high levels of expertise, making them easy targets of rhetoric framing them as 'out-of-touch technocrats' [@mudde2021]. In that sense, I concur with @mudde2021 in that populism can be viewed as an "illiberal democratic response to undemocratic liberalism" (592). Populists thus seek to re-politicize certain issues that had been taken away from the public and into the hands of technically skilled regulators. As a result, within the context of this study, I view populism’s effects on the independence of regulators as *politicization on steroids*: driven by a Manichean worldview, populists who seek to re-politicize issues delegated to IRAs portray regulators as corrupt, out-of-touch elites acting against the will of the people. This moralized, zero-sum understanding of political conflict lowers the threshold for resorting to rhetoric and interventions that directly undermine regulatory agencies’ autonomy.
+
+### Strategies of Populists in Power
+
+Literature in this area typically examines how populists in power seek to undermine or reshape bureaucratic autonomy once electoral victory has been secured. A useful organizing framework is provided by @bauer2021, who argue that illiberal populist governments typically pursue one of three broad strategies toward the administrative state: sideline it, ignore it, or use it.
+
+1.  Populists may seek to **sideline** bureaucracies by constructing alternative decision-making structures closer to the executive, surrounding themselves with loyal experts, or creating parallel institutions that bypass existing agencies altogether [@bauer2021; @mazur2021].
+2.  A second strategy consists of ignoring the bureaucracy. Here, populists refrain from direct confrontation and instead govern in an ad hoc and personalized manner, relying on a narrow circle of ideologically aligned advisors while allowing bureaucratic routines to continue largely unchecked. While less visibly confrontational, such neglect can still weaken bureaucratic influence by excluding agencies from key decision-making arenas and information flows [@bauer2021].
+3.  Finally, populists may seek to use the bureaucracy instrumentally. This strategy involves efforts to reshape bureaucratic incentives and cultures, encouraging compliance through politicized appointments, informal pressure, or selective enforcement. In its most extreme form, instrumentalization may support a broader authoritarian project by aligning administrative power with executive preferences [@bauer2021; @moynihan2021].
+
+Crucially, @bauer2021 show that these strategies operate along several interrelated dimensions. Populists may centralize administrative structures, redistribute resources to weaken disfavored units, politicize personnel through purges or patronage, undermine professional norms of neutrality, and hollow out accountability by reducing transparency and oversight. Comparative evidence from Poland illustrates how these dimensions can be combined in practice: the PiS government simultaneously centralized civil service management, altered recruitment standards, reallocated budgets, and violated norms of political neutrality, leading to a measurable decline in administrative quality [@mazur2021].
+
+Country cases beyond Poland further illustrate these strategies in action. In the U.S., the Trump administration launched an unprecedented campaign against IRAs by summarily removing agency heads on political grounds, stacking commissions with loyalists, or leaving key positions vacant [@mcferran2025]. It expanded White House oversight over regulatory agendas by subjecting IRAs to ex-ante and ex-post review by the Office of Management and Budget, weakening their traditionally independent rulemaking and enforcement authority. Finally, the Federal Reserve is repeatedly targeted through public attacks, threats of dismissal, and the firing of a member of its Board of Governors, signaling that even the most insulated agencies were not beyond political reach. Similar dynamics emerged in Brazil, where Bolsonaro gradually transformed environmental governance by targeting individual bureaucrats, narrowing arenas of contestation, and inducing silence through formal and informal sanctions, ultimately repurposing institutional safeguards to consolidate executive control [@bersch2024].
+
+Importantly, the effects of populist strategies are not confined to the internal functioning of bureaucracies. Recent work by @dobbins2025 highlights how populist attacks can reshape agencies’ external environments, including their relationships with civil society, markets, and international networks: in post-communist contexts, illiberal rule alters patterns of consultation between regulators and interest groups, often privileging politically aligned actors while excluding neutral or oppositional organizations.
+
+While much of this literature focuses on bureaucracies and civil services, IRAs occupy a more ambiguous position. As @yesilkagit2025 argue, IRAs are often less susceptible to direct hierarchical control due to their formal insulation, yet this very insulation renders them vulnerable to targeted delegitimization.
+
+### Populists vs the Judiciary: Delegitimization Strategies
+
+This logic closely parallels findings from the literature on populist attacks against the judiciary. Like IRAs, courts are formally insulated from direct political control in order to preserve impartiality, yet this insulation simultaneously exposes them to strategies relying less on immediate institutional capture and more on public-facing efforts to erode trust and delegitimize expert authority.
+
+@köker2025 shows that this vulnerability allows populists to weaken judicial independence even without holding executive power. By systematically criticizing court decisions, individual judges, and judicial institutions as a whole, populists deploy verbal delegitimization strategies that frame the judiciary as a corrupt and self-serving elite obstructing the will of the people. These attacks are not primarily aimed at reforming judicial behavior, but at undermining the normative foundations of judicial authority by eroding public trust. Given courts’ limited enforcement capacity, sustained rhetorical assaults can substantially weaken their effectiveness in practice, even in the absence of formal constitutional or legal change.
+
+Whether such delegitimization translates into meaningful institutional erosion, however, depends critically on how it is received by the public. @magalhães2024 finds that assaults on judicial independence in Hungary, Poland, and Turkey reduce trust primarily among citizens ideologically distant from governing parties, while supporters of populist leaders remain largely unaffected. Political alignment thus conditions the impact of populist attacks, as individuals are more willing to tolerate or discount institutional erosion when it is carried out by leaders they perceive as legitimate representatives of the people. Public opinion thus acts as a mediating mechanism, filtering the effectiveness of verbal attacks on independent institutions; this dynamic also motivates this paper’s focus on the public as an enabler or constraint of populist pressure.
+
+## Central Banks and Factors Mediating Populist Attacks
+
+Current work on how populists interact with central banks largely builds on a broader political economy literature showing that politicians, on average, favor lower interest rates due to electoral incentives, distributional considerations, and concerns about debt servicing [@ehrmann2011; @lastra2001]. However, rather than altering statutes or mandates, politicians often rely on informal pressure, public criticism, and attempts to influence expectations.
+
+@gavin2023 show that populist politicians are significantly more likely than non-populists to exert public pressure on central banks, and that such pressure is often effective in securing interest rate concessions. Importantly, these conflicts rarely translate into irregular central bank governor turnover, suggesting that de jure independence can coexist with substantial de facto political influence. The authors also find that populist leaders, especially on the right, are more willing to escalate conflicts and incur economic or political costs, making brinkmanship a more credible strategy in confrontations with central banks.
+
+## Mediating factors
+
+Most importantly for the purposes of this paper, existing research has emphasized that the effectiveness of populist pressure on central banks is conditional on a range of institutional and economic constraints. Financial markets are a key moderating factor: when they react negatively to political interference, politicians are less likely to escalate pressure, and central banks are more likely to resist [@gavin2023]. Fiscal institutions constitute another important constraint, though counterintuitively: @jung2025 finds that under stricter fiscal rules, populist leaders are more likely to undermine central bank independence as a substitute for constrained fiscal policy, particularly when short-term economic stimulus is politically attractive.
+
+Beyond markets and fiscal rules, legal and institutional safeguards like mandate clarity, appointment rules, and removal protection also shape the effectiveness of populist interference in central banking [@goodhart2018]. However, this form remains an incomplete shield: central banks’ authority rests not only on legal insulation, but also on broader societal acceptance of their role, goals, and expertise. As @goodhart2018 notes, challenges to central banks often take the form of questioning their objectives, legitimacy, or accountability, rather than direct statutory violations. Importantly, populist leaders often choose to attack central banks openly and in public, rather than relying solely on behind-the-scenes pressure or institutional reform. In conjunction with the previously discussed findings by @magalhães2024, @köker2025, and @maor2013, this suggests that conflicts over central bank independence are waged not only within institutional arenas but also in the public sphere, pointing to public opinion as an important yet underexplored mediating factor in the effectiveness of populist attacks.
+
+# Theoretical Framework
+
+Drawing from @gavin2023, this paper conceptualizes conflicts between populist governments and central banks as public-facing episodes of crisis bargaining in which formally independent central banks face pressure through public escalation rather than legal reform. In these conflicts, de jure independence remains intact, yet de facto independence becomes contingent on the strategic interaction between politicians, central banks, and their relevant audiences.
+
+A key insight of @gavin2023 is that populist politicians are more likely to initiate and escalate such conflicts because they face lower political costs when doing so. Rather than quietly negotiating or pursuing statutory change, populists deliberately apply pressure in public, framing central banks as technocratic elites acting against the will of the people. Whether this strategy succeeds depends on the costs of escalation and resistance, which existing work has primarily modeled through reactions by financial markets.
+
+This paper retains the logic of public pressure and brinkmanship, shifting attention from markets to public opinion as the key intermediary shaping conflict outcomes. Public pressure is not only an instrument to coerce central banks but also a signal directed at voters, showing that the populist leader is willing to clash with the 'corrupt elite.' As a result, audience reactions condition both politicians’ willingness to escalate and central banks’ incentives to resist. Public opinion thus plays a dual role: it imposes audience costs on politicians who escalate unsuccessfully, and it affects the legitimacy costs central banks incur when resisting pressure. Two dimensions of public opinion are thus particularly salient.
+
+1.  Support for the incumbent government: Public approval can shape the political costs of escalation. Populist leaders who enjoy strong public backing face lower audience costs when pressuring central banks and are therefore more willing to persist.
+2.  Public trust in the central bank: Because central banks rely on societal acceptance of their expertise and mandate [@goodhart2018], low public trust can weaken their capacity to withstand pressure without risking reputational damage.
+
+Together, these dynamics generate variation in when populist pressure succeeds. When public opinion aligns with the incumbent and is skeptical of the central bank, escalation becomes politically attractive and resistance costly, increasing the likelihood of monetary accommodation. When public support for the government is weak, or trust in the central bank is high, public pressure is riskier and resistance more viable. This leads to the following hypotheses:
+
+1.  *H1 (Populist Pressure Hypothesis):* Populist governments are more likely than non-populist governments to exert public pressure on central banks to ease monetary policy.
+
+2.  *H2 (Public Opinion Conditioning Hypothesis):* The effect of populist pressure on central bank policy outcomes is conditioned by public opinion.
+
+3.  *H2a (Government Support):* Populist pressure is more likely to result in interest rate cuts when public support for the incumbent government is high.
+
+4.  *H2b (Central Bank Trust):* Populist pressure is more likely to result in interest rate cuts when public trust in the central bank is low.
+
+5.  *H3 (Alignment Hypothesis):* The probability that a central bank accommodates populist pressure is highest when public opinion simultaneously favors the incumbent government and is skeptical of the central bank.
+
+# Conclusion
+
+This paper has developed a theoretical framework for understanding populist attacks on central bank independence by placing public opinion at the center of the analysis. Conceptualizing such attacks as public-facing bargaining processes, it argues that de facto independence depends not only on institutional design and economic constraints, but also on mass politics. In particular, public support for the incumbent and public trust in the central bank jointly condition whether populist pressure translates into monetary accommodation.
+
+While the paper is primarily theoretical, the framework lends itself to empirical evaluation.[^2] At the cross-national level, its implications can be examined quantitatively: for example, large-N analyses using logit/probit models linking episodes of populist pressure to observable monetary policy outcomes (decreasing vs maintaining/increasing interest rates) under varying public opinion conditions. At the same time, qualitative evidence, including expert interviews following high-salience episodes such as the recent confrontations involving the Federal Reserve and its repeated decisions between September 2025 and December 2025 to lower interest rates [@shalal2025] can help illuminate the internal dynamics of this mechanism. Together, these approaches offer a path for assessing when public opinion constrains and when it enables populist challenges to central bank independence.
+
+[^2]: Initially, this formed part of the paper as a separate section. However, I removed it to remain consistent with the page limit.
+
+{{< pagebreak >}}
+
+# Bibliography
+
+::: {#refs}
+:::

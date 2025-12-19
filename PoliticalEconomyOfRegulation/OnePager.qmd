@@ -1,0 +1,48 @@
+---
+title: "Central Banks Under Pressure?"
+subtitle: "The Role of Voters in Mediating Populist Politicians' Attacks Against Independent Regulatory Agencies"
+author: "Nikolaos Vichos"
+format: pdf
+sansfont: "Latin Modern Roman"
+editor: visual
+bibliography: references.bib
+---
+
+## Introduction
+
+Independent regulatory agencies (IRAs) are seemingly under constant attack: whether one looks at Trump's undermining of the Fed's independence, Orbán's de facto usurpation of Hungary's central bank, or Erdoğan's control of the High Council for Broadcasting (RTÜK), Turkey's media regulator, the overarching picture is one of IRAs' independence being continuously threatened. An important common theme across these attacks concerns the actors behind them: populist politicians.
+
+This might perhaps seem unsurprising, due to the very nature of IRAs: as non-elected bodies that formally independent from political control, staffed with technical experts and tasked with overseeing essential tenets of public policy [@maggetti] , IRAs can easily become the caricature of the "elites" in populists' Manichean worldview of a society divided "into two homogeneous and antagonistic groups, ‘the pure people’ versus ‘the corrupt elite’" [@mudde2004, 543]. Indeed, regardless of whether one focuses on central banks, environmental agencies, or competition regulators, IRAs have indeed often been the target of attacks that used this framing [@jung2025; @bersch2024; @bernatt2025]
+
+Nevertheless, one aspect that remains unclear is the role public opinion in enabling or constraining the effectiveness of populist attacks. Given that the central role of the public—the principal audience that populists claim to defend when orchestrating these attacks—their support for or opposition to populists' undermining of regulators' independence could serve as a decisive mechanism mediating the success or failure of efforts to erode institutional autonomy.
+
+Despite existing literature having examined how factors ranging from institutions and fiscal rules to markets and courts might constrain or exacerbate the impact of populists' attacks on independent regulators, the role of public opinion has been notably overlooked. This paper thus asks the following question:
+
+|  |
+|----|
+| *Does public opinion mediate the effectiveness of populist attacks on the independence of IRAs?* |
+
+Understanding the role of public opinion as a potential enabler or deterrent of populist attacks' effectiveness.
+
+If public opinion does function as a mediator that conditions the effectiveness of these attacks, this could grant some legitimacy to the populist narrative,
+
+## Literature Review
+
+My literature view will thus follow this structure, split into the sections below:
+
+-   Definitions: IRAs, populism, politicization
+
+-   Strategies used by populist politicians to undermine IRAs: (i) de-delegation and legal restructuring, (ii) politicized appointments and institutional capture, and (iii) resource allocation and budgetary control.
+
+-   Resistance of IRAs: How, when, and under what circumstances, do independent regulators resist these attacks?
+
+-   Potential mediators that enable or constrain the effectiveness of these attacks: institutions and fiscal rules [@ennser-jedenastik2016; @jung2025], TRNs, markets [@gavin2023], courts [@goodhart2018], and the public
+
+Noisy politics; Colin Hay. Could public opinion simply be the justifier for the attack rather than an enabler/deterrent? Ex-ante and ex-post public opinion; look at public opinion changes; causal claims are constrained; central banks, corruption agencies in Ukraine (Zelenskyy and protests)
+
+{{< pagebreak >}}
+
+## References
+
+::: {#refs}
+:::

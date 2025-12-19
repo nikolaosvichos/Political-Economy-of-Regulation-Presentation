@@ -1,0 +1,40 @@
+---
+title: "Paper structure"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+## Quarto
+
+1.  Introduction to RQ
+2.  Literature Review
+    -   Definitions: IRAs, populism, politicization (found in @ennser-jedenastik2016), central bank independence (found in @jung2025)
+
+    -   Strategies used by populist actors
+
+        -   Politicization:
+
+            -   Sometimes, politicians might avoid politicization when the benefits of doing so are outweighed by the costs (losing credibility and blame avoidance[@thatcher2005])
+
+            -   Other theories of politicization found in @ennser-jedenastik2016
+
+    -   Resistance of IRAs
+
+    -   Potential mediators: institutions and fiscal rules [@ennser-jedenastik2016, @jung2025], TRNs [@benoit2021; @yesilkagit], markets [@gavin2023], courts [@goodhart2018, 62] and the public
+
+    -   Specific examples: countries, central banks, environmental agencies.
+
+OR, for literature review
+
+-   Definitions: IRA's, populism, politicization, CBI
+
+-   Politicization and its presence (or lack thereof) in regulatory processes
+
+    -   The principal-agent problem?
+
+-   From politicization to populism: the strategies used by populist actors to undermine IRA independence
+
+-   Potential mediators: what factors might constrain or exacerbate the effect of these attacks?
+
+-   Special focus: central banks

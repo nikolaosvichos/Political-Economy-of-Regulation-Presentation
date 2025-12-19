@@ -1,0 +1,545 @@
+---
+title: "Lit Review"
+author: "Nikolaos Vichos"
+format: pdf
+editor: visual
+bibliography: references.bib
+---
+
+# Summary of articles
+
+## Populism
+
+### @yesilkagit
+
+Populist movements seek to re-politicize regulatory governance, "depicting independent agencies as unaccountable bureaucratic elites that obstruct 'the will of the people'." However, with existing studies focusing extensively on bureaucracies and the civil service, IRAs (different, due to their different insulation and constraints) remain largely unexplored. They are, in a sense, less susceptible to direct political control but, as a result, also more vulnerable to targeted delegitimization efforts.
+
+IRAs lacked important social anchoring, and their rational remained technocratic and embedded only within elite policy-making circles. This leaves them susceptible to attacks against their elitism and lack of immediacy, and the impediments to sovereignty, going against their strong points (capacity to make impartial decisions). Unlike ministries, who defend their independence through internal informal mechanisms, IRAs might need external insulation mechanisms: reputational strategies, strategic adaptation (selective compliance)
+
+**It's an issue of not only institutional fragility but also democratic legitimacy.** This independence is seen as an illegitimate insulation of technocratic elites form the will of the people and thus an obstacle to democratic oversight. Populists thus seek to re-politicize the implicit public service bargain and reclaim control over agencies depicted as unaccountable elites that undermine national sovereignty. However, it remains unclear whether these changes are permanent or temporary.
+
+What to look at to understand the populist transformation of the regulatory state
+
+1.  Populist strategies for control: de-delegation and legal restructuring (transferred back to politically-controlled ministries), politicized appointments and institutional capture, resource allocation and budgetary control. They still remain in place, but operate in ways aligned with political priorities
+2.  The politics of regulatory design: appointment rules, funding structures, and legal mandates
+3.  Market responses to regulatory instability: market actors might defend autonomy but could also exploit populist-led deregulation for economic and political gains
+4.  The role of trans-governmental networks and international constraints: internationally embedded IRA might leverage international support
+5.  Regulatory agency responses and adaptation: they rely on de facto autonomy, through reputational legitimacy, coalition-building, etc.
+
+### @bauer2021
+
+Illiberal populists governments pursue three broader strategies:
+
+-   Sidelining it (alternative structures, more proximate to exec), they will surround themselves with their own experts. This is in line with their view of the elite vs people, where the bureaucracy is a part of the elite and thus a target for rejection and avoidance. They appoint new loyal and politicized officials to replace technically skilled incumbents. They might also occupy the state by constructing alternative structures. Finally, they might seek to create 'new expertise' with innovative and creative employees replacing the lazy and incompetent bureuacrats.
+
+-   Ignoring it, preferring not to be burdened by expertise, and will instead govern in ad-hoc way, following their self-perception of the voice of the common people. They will thus govern through a small circle of ideologically proximate advisors and/or focus on domains that are more distant from the bureaucracy, while letting the bureaucrats do their job.
+
+-   Using it, with their desire to govern overcoming their ideological distaste for bureaucrats. In the most radical scenario, they instrumentalize it to realize a more authoritarian version of governance. Bureaucrats may want to maintain their control over government (and believe that they must serve any legitimately elected government) and thus go along/be coopted.
+
+Specific strategies;
+
+-   Alter administrative structures, reducing autonomy by centralizing the bureaucracy.
+
+-   They redistribute resources, maintaining the formal set-up while reshuffling powers through budget and personnel allocation
+
+-   They might influence the personnel directly, through purges of staff.
+
+-   They might overhaul bureaucratic norms, establishing and administrative culture that suppresses dissent.
+
+-   The extensive use of executive decree would be a final option, sidelining legislatures and reconfiguring power in favor of the executive.
+
+This can also be visualized by looking at different dimensions
+
+-   Structure: centralizing formal power, reducing horizontal dispersion, reducing lower-level and agency autonomy
+
+-   Resources: Weakening units by reducing funds and staff, leaving them out of information loops, or imposing administrative demands
+
+-   Personnel: Ideological cleansing of staff through patronage, while weakening meritocratic factors in recruitment
+
+-   Norms: Undermine the official neutrality of the bureaucracy and emphasize its instrumental character through strategies like informal pressure
+
+-   Accountability: Reduce societal participation and responsibilities of agencies (vis a vis the parliament and other external controls), reducing transparency and information exchange with other parties.
+
+The bureaucracy's reaction
+
+-   It makes sense to divide them into 'zealots' and 'slackers.' Focusing on the former, if they are aligned with the principal, that's great, but if not they might try to steer it away due to their public service motivation.
+
+-   The potential reactions are:
+
+    -   Shirking: they avoid the implementation of that more passively
+
+    -   Sabotaging: they actively work against the implementation
+
+    -   Working: they might also just cooperate
+
+### @moynihan2021
+
+Methods of consolidating control over the (deep) bureaucratic state:
+
+-   Centralizing control:
+
+    -   Structures: the president's son-in-law given responsibilities, or members of his private club controlling the VA
+
+    -   Resource allocation: Illegally withholding funds from Ukraine
+
+-   Politicization of personnel: moving "disloyal" staff or assigning them to do unpleasant tasks
+
+-   Politicization of norms: public attacks, use of the term deep state, and efforts to punish civil servants
+
+-   Avoiding accountability: firing Inspectors general, refusing to cooperate with Congress.
+
+### @mazur2021: Poland, PiS vs Public Administration
+
+PiS has mostly sidelined the civil service, due to their distrust of what they view as members of an "elite corps which is not working in the best interest of the state".
+
+-   They often replace managers massively, abolish competitions for recruitment, and lower standards to fill positions according to loyalty criteria.
+
+-   They also created new offices that carried tasks concurrently or creating quasi-business agencies entrusted to representatives of the private sector to replace existing institutions.
+
+They launched a three-pronged attack on public administration:
+
+-   Structures: Limit the autonomy of the civil service (centralizing management mechanisms, creating new offices, shifting competences between different administration segments)
+
+-   Resources and the power of the purse: Modify budget and human resources allocation principles
+
+-   Personnel: Mass dismissal of managers, and replacement with party nominees.
+
+-   Standards and principles: violation of civil service neutrality
+
+-   Quality of civil service: negative effect on service provision
+
+### @moynihan2025: looks at how politicization under Trump threatens state capacity (also under populism)
+
+Looks at two aspects that prevent and constraint the government from achieving its goals: proceduralism (more slow and creeping) and politicization (the house is on fire).
+
+Politicization in the US:
+
+-   Traditionally: Centralizing policy-making in the White House + strategically placed appointees
+
+-   Under Trump: Personalist president reorders administration on loyalty criteria; rhetorical attacks and threats against institutions by their very own heads; attack on the separation between appointees and civil servants, through purges and weakening protections
+
+    -   He exchanged expertise for loyalty, including screening questions on whether candidates agreed or not with claims about the 2020 election. He has also expanded in a way that enables quid-pro-quo agreements allowing him to benefit privately.
+
+    -   He normalized attacks upon the public sectors and specific employees within it as part of the presidential toolkit. Refer to Russ Vought quote (p.373)
+
+    -   Schedule F executive order, allowing him to convert civil servants into appointees that serve at the pleasure of the president, stripping them of job protections. This makes it more likely that personnel become politicized [@moynihan2022]
+
+-   \textcolor{red}{This could be useful for the importance section}: Politicization can affect the people in government, including their skills and incentives (p.370). It leads to hiring less competent (but politically connected) individuals, makes employees more likely to exit, replaces moderates with zealots, replaces experienced managers with inexperienced ones, makes employees less willing to invest in expanding their skills, damages the flow of information, and invites waste and corruption.
+
+    -   It also undermines democratic representation by (i) decreasing government's ability to use rule-making as a policy tool and (ii) reducing transparency.
+
+Proceduralism:
+
+-   "The full panoply of formal legal obstacles that an agency must negotiate in order to complete a particular action".
+
+-   It can undermine state capacity, as it often slows down the process through notice-and-consent processes or legal challenges. Veto points can be weaponized, and, generally, procedural checks often hamper the overall goals of the state.
+
+### @lotta2024: Street-level bureaucrats under populism
+
+Findings: Distinct threat posed to populists compared to the civil service, and populism and democratic backsliding have an effect that goes beyond ideological and policy mis-alignments. Ultimately, despite the uncertainty of the backsliding outcome, they still have the discretion of resistance or support, and thus can effect the extent of the backsliding themselves.
+
+Thing to copy that might be useful in summary:
+
+\textcolor{green}{First, populist governments dismiss experts and expertise, replacing merit with loyalty as the key value (Resh et al., 2023). Second, they often undermine the existing administrative institutions of the state and weaken the counter‐majoritarian ones (González‐Vázquez et al., 2023). Third, in addition to actions eroding these institutions, they adopt narratives criticizing and bashing traditional public administrative institutions as elitist, ineffective, or actively working against the wishes of the electorate (Caillier, 2020; Peci et al., 2023; Resh et al., 2023).}
+
+Main points:
+
+-   SLBs are the main face of the state, and are thus directly affected by the consequences of backsliding
+
+-   They cannot be portrayed as elites, unlike the civil service.
+
+-   Complete sidelining and dismantling is impossible, due to the sheer number of SLBs. However, populists can create para-bureaucracies or replace parts of the workforce.
+
+-   SLBs rely a lot on their knoweldge and skills, which often become targets of government attacks to weaken their authority.
+
+-   SLBs are more vulnerable to budget cuts, due to their limited prestige and already limited resources.
+
+-   As a result of minimized expert consultation, SLBs have a more diminished role in policy formulation. This leads to a sense of exclusion, impacting their effectiveness.
+
+-   The anti-establishment bend of populism and its effect on procedures brings more uncertainty into SLBs' work.
+
+Useful stuff;
+
+Mentions (by de Boer 2021) that SLBs need citizen's compliance and adherence for legitimacy.
+
+### @dobbins2025: Linkages between regulators and civil society
+
+Do relationships between bureaucrats and civil society change when populists rule and democratic quality declines?
+
+Focuses in IRAs in four post-communist countries, looking at whether and how interactions between bureaucrats and interest group shave changed amid democratic decline.
+
+-   They find that more professionalized interest groups that provide expertise will have better access. This suggests more independence than previously assumed
+
+-   However, exclusion by illiberal populist parties has a negative effect on organizations' ability to reach bureaucracies. Organizations that have lower access to governing parties.parliaments had significantly fewer meetings with regulators
+
+-   Poland had the opposite thing: organizations that are politically neutral, less tied to the government or closed to the opposition have a "comparatively good short at consultations with regulatory agencies" (949).
+
+-   Hungary instead showed that organizations that lacked Fidesz connections or more neutral/oppositional organizations are largely excluded from consultations, suggesting the isntrumetnalization of Hungarian bureaucracy.
+
+### @köker2025
+
+Focusing on independent judiciaries, the article argues that populists can be harmful even before they come to power, without being able to effect constitutional change through delegitimization strategies that weaken liberal democratic institutions by eroding public trust. They criticize decisions, judges and judicial institutions with narratives of systemic failure.
+
+They oppose them not just because of their opposition to policy, but from fundamental reasons: because of their counter-majoritarianism, their power is seen as illegitimate. Additionally, given their limited enforcing power, their power is contingent on public trust: eroding public trust can weaken them, without any 'official' constitutional/legal changes.
+
+-   Populists in power: examples of Hungary, Venezuela, and Poland using their power to undermine liberal institutions due to their extremely majoritarian, viewing them as illegitimate constraints on free will.
+
+-   Populists outside of power: The main mechanism is the **erosion of public trust.** Their primary targets are often independent judiciaries, especially supreme and constitutional courts through strategic de-legitimization campaigns.
+
+What these de-legitimization strategies might look like?
+
+-   Populists often comment negatively in a strategic way, through verbal/rhetorical attacks, not to effect positive and constructive change but to sabotage the norms and erode public trust, since the judiciary systematically fails to achieve its functions. They don't simply try to mobilize general anti-elitism, but they are actually trying to render an institution ineffective.
+
+-   In practice, they attack: (1) court decisions, (2) individual judges, (3) particular courts/aspects of the judicial system. They argue that courts form part of a broken illegitimate system.
+
+    -   For the first, they link decisions to supposed coordinated attempts to suppress the will of the people. Any decision against them is proof that the judiciary defends the illegitimate ruling class.
+
+    -   They portray individual judges as examples of the corrupt and privileged elite. For example, the PVV's rhetoric portrays judges as the representatives of the privileged 'left liberal' elite.
+
+    -   They can also attack particular (procedural) aspects of courts, portraying them as illegitimate structures of power. The entire judiciary is, as a whole, an illegitimate structure of power. For example, they illegitimately favor certain actors, supposedly, or as a plot against the elite to suppress them.
+
+### @magalhães2024: Judicial independence and public opinion
+
+They look at how judicial independence assaults by populist governments (Turkey, Hungary, Poland) affected judicial trust. They find that
+
+-   These assaults negatively affected judicial trust, however:
+
+-   This effect is much clearer and consistent among citizens who are ideologically distant from their governments.
+
+-   For many, instead, public trust in the judicial system did not decrease consistently: those closer to the government did not consistently lose trust in judicial systems.
+
+Theory:
+
+-   People gain 'procedural utility' from judicial independence, suggesting that their trust will decrease if the courts become compromised
+
+-   However, there are reasons that this might not happen:
+
+    -   They might only exert their full force among their more educated, having limited effects on the public as a whole. This is because the educated will probably be more informed, but also more supportive of core democratic values
+
+    -   Political preferences could crush the negative effects: individuals will be more tolerant of these assaults if they are pushed by parties they support. They did not withdraw confidence from the judicial system as a consequence of government-sponsored court curbing.
+
+-   \textcolor{red}{This could be useful for this paper. When constructing the theoretical framework, the overall acceptability of the leader will play a crucial role in whether the public reacts in a constraining or exacerbating fashion}. This is corroborated by findings by @mazepus2022, @graham2020, @simonovits2022
+
+### @schuster2022: when bureaucracy resists
+
+They focus on the extent to which "public service motivation" (PSM) shapes "guerilla activity" (i.e, bureaucrats engaging in voice and sabotage against the policies of "unprincipled principals". They argue and find (focusing on the Temer presidency in Brazil) that bureaucrats with greater PSM are more likely to engage in both voice and sabotage; however, they also expect that they would be more likely to leave.
+
+This suggests that bureaucracies can be a stalwart against "unprincipled" political principals; however, this has an expiration, since they are more likely to leave.
+
+## Politicization and the role of the public
+
+### @hanretty2013: definitions for independence
+
+-   By the political independence of an agency, we mean the degree to which the agency takes day-to-day decisions without the interference of politicians – in terms of the offering of inducements or threats – and/or the consideration of political preferences. While formal political independence refers to the degree of independence from politics inherent in the legal instruments that constitute and govern the agency, actual political independence refers to the degree to which the agency operates independently from politics in practice.
+
+### @ennser-jedenastik2016
+
+Good overview of theories of politicization and definitions
+
+Large-N study looking at measures of formal independence and the partisan background of bureaucrats.
+
+-   They find that high levels of legal independence are associated with greater party politicization: when formal agency independence increases, individuals with party ties are more likely to be appointed. Institutions might thus create incentives to undermine non-interference norms.
+
+Construction of index (p.511) could be useful for an independence definition
+
+The different factors mentioned in p. 513 are also interesting
+
+### @onoda2024
+
+Focusing on drug rationing policies in England and France, that the degree of initial delegation can determine politicization-driven policy change:
+
+-   In highly delegated settings, taking away decision-making powers makes it possible to produce politically costly outcomes. However, these outcomes might create counter-mobilization that undermine long-term policy stability. England, despite creating a highly insulated regulator, experienced important policy fluctuation.
+
+-   In less delegated settings, elected politicians can prevent unpopular decisions from being taken, contributing the lack of serious political conflicts and, by extension, policy continuity. France, which delegated less power to its regulator, saw greater policy continuity.
+
+Could be useful when focusing on the public because it focuses on political struggles and the erosion of actors' own political base that can put pressure on policymakers. This could apply for the public too: their mobilization could contribute to this lack of policy continuity ("In a highly delegated setting, the loss-imposing policy generates counter-mobilisation channelled through public and electoral arenas"). As public pressure rises, incumbent politicians may adjust their policy positions.
+
+-   However, this also raises the question: yes, this can become contentious, but wouldn't IRA still be quite isolated from this? Or is it just delegation, but not autonomy?
+
+### @benoit2021
+
+Looks at the tradition of studying the politicization of regulation in the US and Western Europe and argues that the former might be over-emphasizing it whereas the latter might be under-emphasizing it.
+
+In the US, regulation has been mostly studied through a reliance on principal-agent models, whose "mismatch of incentives and capabilities leaves formal authority to politicians while conferring discretion to regulators" (10). Political influence has been found to be conditional on things such as the legislature's internal organization and resources, its anticipation of other actors, ideological orientation, and the salience of a policy area.
+
+-   However, the extent of this politicization can be questioned. For example, the role of regulatory action is often undermined because existing work focuses on political principals' incentives to mitigate agency loss. At the same time, politicians might argue the cognitive capacities to monitor regulatory action.
+
+-   Generally, there is a need for a broader understanding of what is the politics of regulation, besides simply the influence of politicians. "Regulators, in sum, respond to political signals, though not necessarily from their political principals, and not necessarily at the expense of their autonomy either" [@benoit2021, 12]. Agencies are often sensitive to reputationl threats for example (see cited studies in p.12)
+
+-   Scholars might interpret Trump's relationship with the regulatory order as a simple example of political actors seeking to shape regulation to their own image. He has not de-constructed the administrative state, but re-constructed it in his own image. At the same time, his impact might be over-stated, and the capacity and agency of regulators understimated. For example, EPA and FDA regulators have established strong networks, particularly with scientific actors, that allow them to keep their reputation and mobilize it when necessary.
+
+In Europe, beyond their legal status, it was their reliance on expertise and scientific excellence that allowed IRAs to maintain their autonomy. The specific scientific background of regulation scholars also impacted the way of study (public policy and administration), leading to a focus on regulatory agencies themselves rather than political dynamics, thus examining relations between regulators, third parties, of modes and types of regulation.
+
+-   Politics in the form of executive leaders, elected officials, etc. is assumed to be non-existent, viewed as lacking the capacity to fully control dynamics. They arguably thus overlook it, ignoring politicians' actual interventions.
+
+-   Also, criticism of principal agent problem (in case I need that) on page 16.
+
+### @benoit2023
+
+In studying legislative involvement in the creation of 48 IRAs, they find that this involvement was substantial for all agencies in the dataset, and they were more involved in agency design when the government proposal had already granted them more powers to appoint members to an agency board. Political efforts to control agency discretion are indeed important. Goes against the suggestion of @onoda2024 by showing that agencies that allow greater participation by legislators are subject to greater scrutiny. These suggest that legislative involvement is selective and driven by strategic consideration.
+
+### @maor2013
+
+Finds that the Israeli banking regulator tended to keep silent on issues on which it enjoys a strong reputation or those that lie outside its jurisdiction, but responded on opinions about core functional areas in which its reputation is weaker. This suggests an important link between public opinion and agent incentives-priorities.
+
+### @ringquist2003
+
+Looks at the effects of public salience and technical complexity on the willingness of elected officials to use legislation to direct the behavior of federal regulatory agencies. It finds that the salience has a positive effect, and leso so in "complex" areas of regulation like anti-trust policy and environmental protection.
+
+### @hay2019
+
+In effect, Brexit inaugurates a third phase by signifying the failure of the politics of expertise. This is going against the previous turn to "expertocracy": in which only non-politician experts were trusted to discern the policy means to the ends that were equated with the collective good, and only if their expertise was insulated from political influence
+
+## Central Banks
+
+### @gavin2023 (look again, understand matrices)
+
+Populist politicians often pressure a CB without changing its legal status. They are more likely to do so than non-populists, unless checked by financial markets, and they are more likely to obtain IR concessions. Public pressure is more likely to be exerted by populist governments, and is effective. However, financial market pressure can dissuade politicians. Surprisingly, populism does not increase the probability of irregular central bank governor turnover (Paper focus overlooked in previous literature, with mixed findings on the effectiveness on CB pressure). Populists (especially right-wing ones) are more willing to incur considerable costs in such conflicts, so CBs are more likely to concede to them (brinkmanship works)
+
+According to populists, central banks are part of the technocratic elite that are enemies of the people. The fact that they choose to attack them openly and in public, rather than behind closed doors or by changing laws is quite surprising \textcolor{red}{(could be useful for section on public)}. Populists are likely to blame technocrats, policy experts, and elites. Additionally, like all politicians, populists also want low interest rates (but they would be more willing to attack the CB to achieve that, due to their political strategy and ideational base)
+
+-   Ideational view of attacks: Attempt to shift blame --\> CB could shrug off the rhetoric
+
+-   Strategic view of attacks: They could have noticeable consequences
+
+Doubts/skepticisms I had while reading the paper:
+
+-   General drawbacks of model-based approaches (too stylized, limited notion of populism as "hostility toward elites and independent institutions" and assumes that populists will incur lower costs when escalating CB pressure, does not count non-IR-related pressures as pressure events)
+
+-   What about the combination of public and behind-closed-doors pressure?
+
+-   Does it actually test for market discipline or simply market integration?
+
+### @goodhart2018
+
+Doubts/skepticisms I had while reading the paper:
+
+-   Problematic, policy-oriented definition of populism: "someone who wants to restrict the movements of people, capital, and goods and services" and a politician removing checks and balances
+
+-   The criticisms ("brickbats") discussed against CBs have been quite technical and long-term, not very traditionally populist (with the exception of distributional effects). However, it makes a good prediction about the populist outcry against rising nominal interest rates
+
+How populism affects CB independence
+
+-   Legitimacy (formal and societal—when societal is lower, formal might change): The initial legal basis does not legitimize on an ongoing basis CB's exercise of powers (especially given their power)
+
+-   Mandate (price/financial stability): Questioning the goal can lead to questioning specific policies/actions of CBs. Performance is complicated in the case of dual mandates like in the Fed. When mandates become broader, the authors argue that accountability should trump independence.
+
+-   Personnel: Authors argue that CBs will be blamed if critical of govenrment or propelled the popular discontent, but they should not become scapegoats. Appointments should be pluralistic (i.e., diversified by region, sector, etc.) to avoid politicization and personnel should be professionally independent. Grounds for dismissal should be defined, and exclude "displeasure" or criticism of the governor, since attacks against central bankers are often disguised attacks on independence.
+
+### @jung2025
+
+Populists leader, when they are constrained by stricter fiscal rules (especially on short-term expenditure), are more likely to undermine central bank independence to stimulate economic activity. This is particularly the case when populist leaders exert great authority, and when they are incentivized to prioritize monetary over fiscal policy. Under fiscal policy constraints, policymakers may seek to influence monetary policy as a substitute.
+
+This risk is especially pronounced under populism, due its prioritization of short-term popular benefits over long term stability)
+
+-   Doubt: This assumes a specific mode of 'populist governance' going beyond the the simple ideational definition, claiming that populists will engage into fiscal expansion for public approval (which would not account for 'neoliberal populists' like Milei.
+
+-   The main concern is definitional:it is not the 'populist form of governance' of fiscal expansionism that leads that, but rather their Manichean worldview.
+
+The rigidity of fiscal rules constrains the policy spaces and prompts populists to rely on monetary instruments. This is especially due to the 'ideology's' anti-elitist framework, but also due to their prioritization of visible economic gains over rules that ensure continuity.
+
+-   Again, doubts: does not account for the Milei effect. I would argue that populists define themselves contrary to the establishment—in cases where visible and rapid economic gains have been historically prioritized by the dominant political elite, populists might seek to turn against that (even if in name only) to differentiate themselves.
+
+Mechanisms under which fiscal rules undermine CBI:
+
+-   Fiscal ceilings –\> populists criticize monetary authorities –\> coerce them toward their targets
+
+-   Populists might pursue debt monetization or other expansionary monetary measures, heightening inflationary risks.
+
+-   Populist rhetoric portrays central banks as elitist and unaccountable, eroding public trust and legitimize interference
+
+### @ehrmann2011
+
+Argues that politicians, on average, favor lower interest rates. This is because:
+
+1.  They put less weight on inflation and more on output (growth, employment). The ECB places more weight non inflation.
+2.  Their preferences are affected by political economy motives: they place more emphasis on growth when national economic performance is weak, there is low trust in ECB nationally, and according to their orientation (left-wing = more growth-oriented)
+3.  Different constituencies: they focus on national economic objectives rather than the Euro area as a whole. This is particularly obvious due to government preferences shifting in favor of growth during periods of high debts/deficits: in monetary unions, the costs of actions are shared by all members.
+
+Also, politicians might delegate tasks to shift blame [@alesina2007]
+
+### @lastra2001
+
+Why politicians might not want stable prices and want to expand money supply beyond the rate of real growth:
+
+-   Before an election, they want to increase economic activity, employment, and a strong sense of euphoria
+
+-   May favor inflation to temporarily increase employment and output in a period when wages are set above their market-clearing rate
+
+-   Revenue motive: extract real wealth from the public holding money balances if the value of those holdings can be eroded through issuance of additional money
+
+-   Reduce the cost of paying back debt denominated in the local currency.
+
+The logic of CBI: politically autonomous but goal-constrained
+
+-   Independent from short-term political pressures, with long-serving officers and without taking orders from other institutions, free to pursue its goals.
+
+-   Nevertheless, these goals are still set by the principal, suggesting a sort of bounded autonomy.
+
+-   The political system decided to "tie its hands, like Ulysses at the mast, to avoid taking destructing action when the siren of inflationary temptation appears" (33)
+
+Incentives of politicians:
+
+-   CBI can offer benefits to politicians.
+
+    -   For the public-spirited, they understand its role as a pre-commitment to price stability.
+
+    -   For the self-interested, they can blame CBs for unpopular policies or benefit from price stability and mil interest groups for financial support.
+
+-   But they might motivated to violate it too:
+
+    -   Governments might be relucatnt to give up the great power of control over the price level.
+
+## Country Examples
+
+### @mcferran2025: USA
+
+The Trump administration has been on a crusade to attack and undermine the effectiveness of IRAs.
+
+-   Firing summarily dozens of IRA leaders based on political disagreements (and *not* misconduct, as prescribed by law) and then stacking IRAs with loyalists or leaving them vacant
+
+-   Give the White House control over which agency projects to fund or not
+
+-   IRAs need to submit draft regulations to OMB for White House review prior to publication, and need the White House to review all their existing regulations.
+
+-   The Fed has been the target of public attacks, and Trump has fired a member of the BoG. \textcolor{red}{The Federal Reserve is perhaps the most well-known independent agency among the public; its mandates include promoting full employment, stable prices, and moderate long-term interest rates, among others.}
+
+The characteristics of IRAs:
+
+-   Independent regulatory authorities: They were largely exempt from OMB's OIRA review process, limiting the influence of political actors on the regulatory process
+
+-   Independent enforcement and litigating authority: IRAs have some extent of litigating authority, allowing them to control their own enforcement agenda because they can independently initiate and litigate enforcement actions in court.
+
+-   Removal protections: In the absence of misconduct, they cannot be removed.
+
+-   Multi-member structures: bipartisan balance, particular backgrounds/expertise, etc. This is intended to limit the influence of partisanship and to foster expertise.
+
+-   Independent control over congressional testimony, legislative proposals, and budget submissions: they speak with their own voice to Congress, not by coordinating with the White House. They also control their own research agendas to produce reliable findings insulated from political influence.
+
+Trump attacks:
+
+-   Firing agency leaders, going against Humphrey's Executor v. United States because he sees them as an unconstitutional restriction to his authority.
+
+-   New levels of control: OMB director can control expenditure of agency funds, agency heads need a White House liaison, IRA chairpersons need to consult with the White House, the OMB director and evaluate IRA heads' performance standards.
+
+-   Undermine IRA's rulemaking power: IRAs review all regulations in their jurisdiction to repeal those inconsistent with Administration policy, need to consult with DOGE before considering new regulations, need to submit regulatory actions to OMB before publications.
+
+-   Attacks on the independence of agency enforcement: president has the ability to override agencies' own interpretation of its laws, and need to consult with OMB director.
+
+Examples:
+
+-   National Labor Relations Board, Equal Employment Opportunity Commission, Consumer Product Safety Commission, National Credit Union Administration
+
+### @yakir2025: Israel and Hungary
+
+Finds that, when in power, right-wing populists re-politicize neoliberalism's de-politicized economic policies and weaken independent institutions. Compares Hungary and Israel
+
+Adopts a view of state's role in neoliberalism according to which neoliberalism changes how the state functions, expanding state powers that focus on the expansion and regulation of markets. It hollows out specific state capacities (Keynesian institutions and welfare systems) and replaces them with new oness that sustain market activity and expand competitiveness (e.g., removing politicians from economic decision-making). Technocracy became one of the main legitimization tools, with governments relying on technocrats for policy legitimation.
+
+Hungary:
+
+-   Attacks against CB independence, such as reducing governor's salary, political attacks, appointing an ally. Limited EU actions, since the CB did not violate formal rules
+
+-   MNB thus became involved in "unorthodox" economic policies that were aligned with the government's political priorities
+
+Israel
+
+-   Consolidated control over MiFin's bureaucracy - Concentrated more power within the PM's 'National Economic Council" agency
+
+Overall:
+
+-   State intervention in either countries was aimed at replacing parts of market mechanisms (both the vocational trianing and the PER housing program)
+
+-   They also subverted critical elements of the neoliberal order to implement their agenda.
+
+-   External constraints posed by EU deficit laws made Hungary "innovate" and attack CB independence to create fiscal space.
+
+### @bersch2024: Brazil's environemntal agencies
+
+Focuses on bureaucracies more than on independent agencies and on how Bolsonaro was able to dominate key sectors by:
+
+-   Transforming the regulatory framework
+
+-   Targeting individual state employees
+
+-   Reducing arenas of contestation
+
+-   Inducing public sector employees to remain silent
+
+Populists are more likely to dominate the executive due to their personalistic leadership. @bauer2021 claim that they have three ways of doing so: sidelining it, ignoring it, using it. Bureaucracies might initially have the upper hand, but, as leaders learn, they can calibrate their strategies.
+
+-   Note: interesting, given Trump II. Has aged quite well.
+
+Political leaders in Brazil strengthened hierarchies and and engaged in 'learning.' In the end, the learned to isolate bureuacrats with formal mechanisms of fear and punishment. The institutional framework that initially allowed for resistance by civil servants was transformed and re-purposed to exert political control over environmental ministries.
+
+### @coletti2025: Italy
+
+Employs an "interpretive narrative analysis" to focus on the Italian Data Protection Independent authority (safeguards rights in data processing), looking at three episodes of conflict between two populist governments (Meloni and Conte) and the IRA. The authority has behaved ambiguously, as the Authority aligned with the Conte's agenda but was critical to Meloni, directly challenging its positions andl leading to further tensions.
+
+-   Under Meloni:
+
+    -   She sought to exclude the Authority from AI governance, which then expressed its concerns. It undermined its mandate and sidelined its expertise: this risks eroding the checks and balances necessary for aligning AI policies with human rights. The response was to to downplay the experitse of the agency
+
+        -   When the agency expressed concerns about Article 12 of the Flows decree permitting access to migrants' electronic devices, Meloni simply reasserted her commitment, employing populist rhetoric emphasizing a 'patriotic' vision of defending Italian borders.
+
+-   Under Conte: Centralized the appointment process, bypassing Parliament and appointing loyalists (Stanzione). Conte sought to leverage the agency to resolve disputes with the M5S related to its internal data management.
+
+### @dussauge-laguna2022: Mexico
+
+Looks at AMLO's administration to study how populist governments affect democratic decision-making, focusing on agenda-setting, policy formulation and design, implementation, evaluation, and termination processes. Populists introduce important distortions in each policy stages, and **employ strategies to**
+
+1.  **limit the number of policy actors taking part** in agenda-setting and evaluation exercises
+2.  formulate ineffective policy tools based on questionable designs
+3.  develop personalistic implementation channels
+4.  undermine evidence-based analyses
+5.  terminate institutions and programs on a discretionary basis
+
+This is because their claims of having a unique understanding of the people's will and presenting themselves as the only true representatives shileds them from criticisms. As a result they develop a series of policymaking strategies that diverge from the technical standards associated with democratic policymaking.
+
+Some specfic examples in the case of AMLO include:
+
+-   Use of parallel administrative structures and networks of loyalists
+
+-   Disqualifying experts and ignoring the added value of assessment
+
+-   Unjustfied termination of institutions, public posts, and tools, and discretionary substitution of public programs
+
+### @bernatt2025: USA (also Hungary and Poland)
+
+Focuses ont he politicization of competition agencies under Trump. When this politicization involves the implementation of illiberal politics, it undermines the rules-of-law-based character of competition law enforcement.
+
+The illiberal blueprint involves interference in decision-making processes, independence erosion, senior staff attrition, jurisdiction restrictions, politically motivated enforcement, self-restraint in cases involving politically connected firms, and political pressures on courts and judges.
+
+Politicization might unavoidable (given that the legal frameworks that usually govern them "do not go far enough" (4), since their budgets for example are decided by parliament), but when it involves illiberal politics that it poses a real issue. Given that the role of competition agencies is usually perceived in terms of economic (markets) and politically (constitutional democracies) systems, the politics that undermines these tenets (illiberal politics) will be problematic for them.
+
+Hungary and Poland are two clear examples
+
+-   Serving heads of agency leaving and being repalced by political appointees. The head of the Hungarian data protection authority was dismissed. In both countries, new IRAs (though less independent) were established to replace the old ones (energy and public utilities agency and media agency in Hungary, and the National Media Council in Poland).
+
+-   Conditions that can facilitate that are present in illiberal politics, such as undermining the role of private media by curtailing their funding opportunities or through the capture of key national economic actors by loyalists. Thus, the undermining of competition agencies is necessary to enable these processes.
+
+The blueprint [@bernatt2025, 22]
+
+## Principal-Agent Framework
+
+### @maggetti2018
+
+Overview of P-A and IRAs
+
+-   The structure of delegation here seeks to ensure that the agent is unresponsive to the interests of the principal.
+
+-   Independent bodies are expected to act on the basis of their own judgement within the boundaries of their mission
+
+Argues that it considers refinement because
+
+1.  Principals do not necessarily seek to exert control over agencies. Literature shows that they rarely activate the existing control and accountability mechanisms
+
+    -   Elected politicians do not really use the formal instruments available to them [@thatcher2005], looking at four European nations between 1990-2001. The explanations for this can include
+
+        -   Use of alternative methods of control: IRAs followed the preference of politicians anyways: despite being distinct actors, they lacked real autonomy. Maybe, the overall design also created strong incentives from them to follow the views of elected politicians.
+
+        -   Realized the benefits of IRA autonomy in practice and the cost of applying their formal control outweighed agency losses. IRAs can serve the functions of credible commitment (by being independent) or by taking the blame for difficult decisions [@alesina2007 as well].
+
+2.  Relations which structure these mechanics other than those of the elected principals are also important.
+
+3.  Agencies can acquire political power over time and subvert the logic of delegation

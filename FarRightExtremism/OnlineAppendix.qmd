@@ -1,0 +1,109 @@
+---
+title: "Coming of Age Under Trump: Online Appendix"
+author: "Nikolaos Vichos"
+format: 
+  html:
+    toc: true
+editor: visual
+bibliography: references.bib
+---
+
+\toc
+
+## Introduction
+
+This document is the online appendix for the paper "Coming of Age Under Trump The Effect of First Electoral Exposure in a Trump Election on Long-Term Support for Radical Right Attitudes." Here I have included additional, mainly methodological, details not included in the main body of the paper.
+
+## Regression Design
+
+Since linear models estimated via ordinary least squares may miss subtle non-linearities in how the outcome evolves with age, I estimate a more flexible version of the RDD.[^1] This can be expressed as:
+
+[^1]: Of course, this version can take a linear form; however, it is also generalizable to higher polynomial degrees.
+
+$$
+Y_i = \alpha + \tau D_i + f(X_i - c) + \varepsilon_i
+$$
+
+Where:
+
+-   $Y_i$ is the outcome. There are three possible outcomes: three different indices measuring support for nativism, authoritarianism, or populism.
+-   $D_i$ is an indicator equal to 1 if individual $i$’s age *exceeds* the cutoff (i.e., they were just *eligible* to vote in 2012), and 0 otherwise.[^2]
+-   $\tau$ is the parameter of interest, capturing the size of the discontinuity at the threshold—that is, the causal effect of being first eligible to vote in 2012 rather than in 2016.
+-   $X_i$ is the running variable, the respondent’s age in years in 2020.
+-   $f(X_i - c)$ denotes a flexible function (e.g., first- or second-order polynomial) of the centered running variable—distance from the cutoff $c$.
+-   $c = 26$ is the cutoff point, so $X_i - c$ represents the running variable centered at the threshold.
+-   $\varepsilon_i$ is an error term.
+
+[^2]: This might seem counter-intuitive, since the group of interest (young voters) becomes, in a sense, the 'control group'. This is due to the specific design of the R package used (rdrobust), which estimates causal effects when the running variable crosses the cut-off.
+
+In my analysis, I estimated a series of sharp RD models using local polynomial regression. Each model used local linear estimation (polynomial order = 1) and MSE-optimal bandwidth selection to obtain the treatment effect at the cutoff.
+
+## Index Construction
+
+This section documents the construction of the indices, including item wording, internal consistency, factor structure, and rescaling.
+
+### Item Wordings
+
+The tables below provided the exact question wording for each item included in the indices. Most responses were in a 5- or 7-point Likert scale.
+
+| Shortened Name | Survey Question |
+|-------------------|-----------------------------------------------------|
+| Minorities Should Adapt | Minorities should adapt to the customs and traditions of the United States. |
+| World Like America | The world would be a better place if people from other countries were more like Americans |
+| America Is Better | Generally speaking, is the United States better, worse, or about the same as most other countries? |
+| Immigrants Harm Culture | America’s culture is generally harmed by immigrants. |
+
+: Nativist Items and Survey Wording
+
+| Shortened Name | Survey Question |
+|-------------------|-----------------------------------------------------|
+| Free Press | First, how important is it that news organizations are free to criticize political leaders? |
+| Checks and Balances | How important is it that the executive, legislative, and judicial branches of government keep one another from having too much power? |
+| Rule of Law | How important is it that elected officials face serious consequences if they engage in misconduct? |
+| Concern for Media Undermining | How concerned are you that some people in the government today might want to undermine the news media’s ability to serve as a check on governmental power? |
+| Journalist Access | Do you favor, oppose, or neither favor nor oppose elected officials restricting journalists’ access to information about government decision-making? |
+| Foreign Help | In general, how appropriate or inappropriate is it for the president of the United States to ask leaders of foreign countries to investigate political rivals? |
+| Unitary Executive | Would it be helpful, harmful, or neither helpful nor harmful if U.S. presidents could work on the country’s problems without paying attention to what Congress and the courts say? |
+| Strong Leader | Having a strong leader in government is good for the United States even if the leader bends the rules to get things done |
+| Urban Unrest | What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between. |
+
+: Authoritarian Items and Survey Wording
+
+| Item | Survey Question |
+|------------------|-----------------------------------------------------|
+| Manicheanism | What people call compromise in politics is really just selling out on one’s principles. |
+| Politicians do not care | Most politicians do not care about the people. |
+| Trustworthy Politicians | Most politicians are trustworthy |
+| Politicians are the main problem | Politicians are the main problem in the United States. |
+| Politicians care about the rich | Most politicians care only about the interests of the rich and powerful. |
+| Public officials do not care | Public officials don’t care much what people like me think. |
+| No voice | People like me don’t have any say about what the government does |
+| System for insiders | Our political system only works for the insiders with money and power |
+| Rich and powerful | Because of the rich and powerful, it becomes difficult for the rest of us to get ahead. |
+| Control by few | Most business and politics in this country are secretly controlled by the same few powerful people. |
+| Lies to control | Much of what people hear in schools and the media are lies designed to keep people from learning the real truth about those in power. |
+
+: Populist Items and Survey Wording
+
+### Internal Consistency
+
+To evaluate the internal reliability of the six survey items used in the Liberal Democracy Index, I computed Cronbach’s alpha. The raw alpha is 0.73 and the standardized alpha is 0.77, which suggests acceptable internal consistency. The 95% confidence interval ranges from 0.72 to 0.74. I also examined whether any item strongly reduced internal consistency when removed. The results indicate that no single item substantially lowers reliability, implying that each contributes meaningfully to the latent construct.
+
+| Item                   | Cronbach's Alpha if Dropped |
+|------------------------|-----------------------------|
+| Free Press             | 0.73                        |
+| Checks and Balances    | 0.72                        |
+| Rule of Law            | 0.73                        |
+| Agree on Facts         | 0.75                        |
+| Media Freedom Concerns | 0.75                        |
+| Journalist Access      | 0.76                        |
+
+: Internal Consistency (Standardized Cronbach’s Alpha) for Liberal Items
+
+### Factor Structure
+
+Next, I used principal axis factoring (no rotation) to assess whether the six items capture a single underlying construct. Based on the Kaiser criterion (eigenvalue \> 1) and the scree plot, a single factor was retained. The first factor had an eigenvalue of 2.22; the second was 0.42. Factor loadings were all above 0.48, confirming unidimensionality.
+
+To capture individual-level support for radical-right attitudes, I constructed three indices, using a total of 28 items: nativism (6), authoritarianism (9), populism (13). For each core feature, I first assessed the internal consistency of these items[^3], used factor analysis to extract a single latent factor and rescaled the factor scores to a 0–1 range, where higher values indicate stronger support for radical-right values.
+
+[^3]: Even though the authoritarian and populist items each captured a coherent underlying construct (Cronbach’s α \> 0.7), the nativist items were just below the commonly accepted threshold, at 0.67, raising doubts about the internal consistency of the index and potentially explaining some of the irregularities in the results \[@taber2018

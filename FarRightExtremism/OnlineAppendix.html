@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Nikolaos Vichos">
+
+<title>Coming of Age Under Trump: Online Appendix</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="OnlineAppendix_files/libs/clipboard/clipboard.min.js"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/popper.min.js"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="OnlineAppendix_files/libs/quarto-html/anchor.min.js"></script>
+<link href="OnlineAppendix_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="OnlineAppendix_files/libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="OnlineAppendix_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="OnlineAppendix_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="OnlineAppendix_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="OnlineAppendix_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="OnlineAppendix_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#regression-design" id="toc-regression-design" class="nav-link" data-scroll-target="#regression-design">Regression Design</a></li>
+  <li><a href="#index-construction" id="toc-index-construction" class="nav-link" data-scroll-target="#index-construction">Index Construction</a>
+  <ul class="collapse">
+  <li><a href="#item-wordings" id="toc-item-wordings" class="nav-link" data-scroll-target="#item-wordings">Item Wordings</a></li>
+  <li><a href="#internal-consistency" id="toc-internal-consistency" class="nav-link" data-scroll-target="#internal-consistency">Internal Consistency</a></li>
+  <li><a href="#factor-structure" id="toc-factor-structure" class="nav-link" data-scroll-target="#factor-structure">Factor Structure</a></li>
+  <li><a href="#index-rescaling" id="toc-index-rescaling" class="nav-link" data-scroll-target="#index-rescaling">Index Rescaling</a></li>
+  </ul></li>
+  <li><a href="#rd-results" id="toc-rd-results" class="nav-link" data-scroll-target="#rd-results">RD Results</a></li>
+  <li><a href="#discontinuity-plots" id="toc-discontinuity-plots" class="nav-link" data-scroll-target="#discontinuity-plots">Discontinuity Plots</a></li>
+  <li><a href="#robustness-checks" id="toc-robustness-checks" class="nav-link" data-scroll-target="#robustness-checks">Robustness Checks</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Coming of Age Under Trump: Online Appendix</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nikolaos Vichos </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This document is the online appendix for the paper “Coming of Age Under Trump The Effect of First Electoral Exposure in a Trump Election on Long-Term Support for Radical Right Attitudes.” Here I have included additional, mainly methodological, details not included in the main body of the paper.</p>
+</section>
+<section id="regression-design" class="level2">
+<h2 class="anchored" data-anchor-id="regression-design">Regression Design</h2>
+<p>Since linear models estimated via ordinary least squares may miss subtle non-linearities in how the outcome evolves with age, I estimate a more flexible version of the RDD.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This can be expressed as:</p>
+<p><span class="math display">\[
+Y_i = \alpha + \tau D_i + f(X_i - c) + \varepsilon_i
+\]</span></p>
+<p>Where:</p>
+<ul>
+<li><span class="math inline">\(Y_i\)</span> is the outcome. There are three possible outcomes: three different indices measuring support for nativism, authoritarianism, or populism.</li>
+<li><span class="math inline">\(D_i\)</span> is an indicator equal to 1 if individual <span class="math inline">\(i\)</span>’s age <em>exceeds</em> the cutoff (i.e., they were just <em>eligible</em> to vote in 2012), and 0 otherwise.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li><span class="math inline">\(\tau\)</span> is the parameter of interest, capturing the size of the discontinuity at the threshold—that is, the causal effect of being first eligible to vote in 2012 rather than in 2016.</li>
+<li><span class="math inline">\(X_i\)</span> is the running variable, the respondent’s age in years in 2020.</li>
+<li><span class="math inline">\(f(X_i - c)\)</span> denotes a flexible function (e.g., first- or second-order polynomial) of the centered running variable—distance from the cutoff <span class="math inline">\(c\)</span>.</li>
+<li><span class="math inline">\(c = 26\)</span> is the cutoff point, so <span class="math inline">\(X_i - c\)</span> represents the running variable centered at the threshold.</li>
+<li><span class="math inline">\(\varepsilon_i\)</span> is an error term.</li>
+</ul>
+<p>In my analysis, I estimated a series of sharp RD models using local polynomial regression. Each model used local linear estimation (polynomial order = 1) and MSE-optimal bandwidth selection to obtain the treatment effect at the cutoff.</p>
+</section>
+<section id="index-construction" class="level2">
+<h2 class="anchored" data-anchor-id="index-construction">Index Construction</h2>
+<p>This section documents the construction of the indices, including item wording, internal consistency, factor structure, and rescaling.</p>
+<section id="item-wordings" class="level3">
+<h3 class="anchored" data-anchor-id="item-wordings">Item Wordings</h3>
+<p>The tables below provided the exact question wording for each item included in the indices. Most responses were in a 5- or 7-point Likert scale.</p>
+<table class="caption-top table">
+<caption>Nativist Items and Survey Wording</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 72%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shortened Name</th>
+<th>Survey Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Minorities Should Adapt</td>
+<td>Minorities should adapt to the customs and traditions of the United States.</td>
+</tr>
+<tr class="even">
+<td>World Like America</td>
+<td>The world would be a better place if people from other countries were more like Americans</td>
+</tr>
+<tr class="odd">
+<td>America Is Better</td>
+<td>Generally speaking, is the United States better, worse, or about the same as most other countries?</td>
+</tr>
+<tr class="even">
+<td>Immigrants Harm Culture</td>
+<td>America’s culture is generally harmed by immigrants.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Authoritarian Items and Survey Wording</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 72%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shortened Name</th>
+<th>Survey Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Free Press</td>
+<td>First, how important is it that news organizations are free to criticize political leaders?</td>
+</tr>
+<tr class="even">
+<td>Checks and Balances</td>
+<td>How important is it that the executive, legislative, and judicial branches of government keep one another from having too much power?</td>
+</tr>
+<tr class="odd">
+<td>Rule of Law</td>
+<td>How important is it that elected officials face serious consequences if they engage in misconduct?</td>
+</tr>
+<tr class="even">
+<td>Concern for Media Undermining</td>
+<td>How concerned are you that some people in the government today might want to undermine the news media’s ability to serve as a check on governmental power?</td>
+</tr>
+<tr class="odd">
+<td>Journalist Access</td>
+<td>Do you favor, oppose, or neither favor nor oppose elected officials restricting journalists’ access to information about government decision-making?</td>
+</tr>
+<tr class="even">
+<td>Foreign Help</td>
+<td>In general, how appropriate or inappropriate is it for the president of the United States to ask leaders of foreign countries to investigate political rivals?</td>
+</tr>
+<tr class="odd">
+<td>Unitary Executive</td>
+<td>Would it be helpful, harmful, or neither helpful nor harmful if U.S. presidents could work on the country’s problems without paying attention to what Congress and the courts say?</td>
+</tr>
+<tr class="even">
+<td>Strong Leader</td>
+<td>Having a strong leader in government is good for the United States even if the leader bends the rules to get things done</td>
+</tr>
+<tr class="odd">
+<td>Urban Unrest</td>
+<td>What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Populist Items and Survey Wording</caption>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Survey Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Manicheanism</td>
+<td>What people call compromise in politics is really just selling out on one’s principles.</td>
+</tr>
+<tr class="even">
+<td>Politicians do not care</td>
+<td>Most politicians do not care about the people.</td>
+</tr>
+<tr class="odd">
+<td>Trustworthy Politicians</td>
+<td>Most politicians are trustworthy</td>
+</tr>
+<tr class="even">
+<td>Politicians are the main problem</td>
+<td>Politicians are the main problem in the United States.</td>
+</tr>
+<tr class="odd">
+<td>Politicians care about the rich</td>
+<td>Most politicians care only about the interests of the rich and powerful.</td>
+</tr>
+<tr class="even">
+<td>Public officials do not care</td>
+<td>Public officials don’t care much what people like me think.</td>
+</tr>
+<tr class="odd">
+<td>No voice</td>
+<td>People like me don’t have any say about what the government does</td>
+</tr>
+<tr class="even">
+<td>System for insiders</td>
+<td>Our political system only works for the insiders with money and power</td>
+</tr>
+<tr class="odd">
+<td>Rich and powerful</td>
+<td>Because of the rich and powerful, it becomes difficult for the rest of us to get ahead.</td>
+</tr>
+<tr class="even">
+<td>Control by few</td>
+<td>Most business and politics in this country are secretly controlled by the same few powerful people.</td>
+</tr>
+<tr class="odd">
+<td>Lies to control</td>
+<td>Much of what people hear in schools and the media are lies designed to keep people from learning the real truth about those in power.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="internal-consistency" class="level3">
+<h3 class="anchored" data-anchor-id="internal-consistency">Internal Consistency</h3>
+<p>To evaluate the internal reliability of the items used in the indices, I computed Cronbach’s α for each set of items.</p>
+<table class="caption-top table">
+<caption>Internal Consistency (Standardized Cronbach’s Alpha) for Liberal Items</caption>
+<thead>
+<tr class="header">
+<th>Set of Items</th>
+<th>Cronbach’s α (raw)</th>
+<th>Cronbach’s α (standardized)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nativism</td>
+<td>0.67</td>
+<td>0.67</td>
+</tr>
+<tr class="even">
+<td>Authoritarianism</td>
+<td>0.82</td>
+<td>0.82</td>
+</tr>
+<tr class="odd">
+<td>Populism</td>
+<td>0.83</td>
+<td>0.83</td>
+</tr>
+</tbody>
+</table>
+<p>Though the authoritarianism and populism items show acceptable internal consistency (α &gt; 0.7), both the raw and the standardized alpha for the nativism items are just below the commonly accepted threshold <span class="citation" data-cites="taber2018">(<a href="#ref-taber2018" role="doc-biblioref">Taber 2018</a>)</span>. Even though the index was eventually constructed due to the theoretical importance of nativism, this lack of internal consistency raises an important question-mark regarding the construction validity of the nativism index.</p>
+</section>
+<section id="factor-structure" class="level3">
+<h3 class="anchored" data-anchor-id="factor-structure">Factor Structure</h3>
+<p>Next, I used principal axis factoring (no rotation) to assess whether the six items capture a single underlying construct. Based on the Kaiser criterion (eigenvalue &gt; 1) a single factor was retained for each item. Factor loadings for each index’s selected items were above 0.35, confirming unidimensionality.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-screeplot-nativism" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-screeplot-nativism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-screeplot-nativism-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screeplot-nativism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Scree Plot: Eigenvalues for Nativism Factors)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-screeplot-authoritarianism" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-screeplot-authoritarianism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-screeplot-authoritarianism-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screeplot-authoritarianism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Scree Plot: Eigenvalues for Authoritarianism Factors)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-screeplot-populism" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-screeplot-populism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-screeplot-populism-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screeplot-populism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Scree Plot: Eigenvalues for Populism Factors)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="index-rescaling" class="level3">
+<h3 class="anchored" data-anchor-id="index-rescaling">Index Rescaling</h3>
+<p>Each index is constructed by extracting individual scores on the first factor and rescaling them to range from 0 to 1 using min–max normalization. Even though higher values indicate <em>lower</em> endorsement for radical right attitudes during the process of index construction, this is for visualization and interpretability purposes, due to the specific design of the rdrobust package <span class="citation" data-cites="calonico2025">(<a href="#ref-calonico2025" role="doc-biblioref">Calonico, Cattaneo, and Farrell 2025</a>)</span>. In the package, the threshold is “crossed” from left to right—hence, normally, a positive effect would suggest an increase in nativist, authoritarian, or populist attitudes among those who voted for the first time in <em>2012.</em> However, for clearer comprehension, the results have been reversed, and the indices can be interpreted as indicating <em>decreasing</em> support for each of the three ideological features. However, strictly speaking, the indices indicate the opposite direction in their construction. For details on the process of index construction, refer to the replication code file.</p>
+</section>
+</section>
+<section id="rd-results" class="level2">
+<h2 class="anchored" data-anchor-id="rd-results">RD Results</h2>
+<p>The detailed estimates of the RDD are shown below in table format.</p>
+<table class="table caption-top">
+<caption>Regression Discontinuity Estimates on Radical Right Support</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Sample</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Model</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Estimate</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">SE</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Bandwidth Type</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Bandwidth (h)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">N</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">0.022</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.90</td>
+<td style="text-align: right;">980</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.022</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.96</td>
+<td style="text-align: right;">961</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.034</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.41</td>
+<td style="text-align: right;">388</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">-0.019</td>
+<td style="text-align: right;">0.034</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.27</td>
+<td style="text-align: right;">378</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.005</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.01</td>
+<td style="text-align: right;">617</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.006</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.12</td>
+<td style="text-align: right;">608</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.035</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.87</td>
+<td style="text-align: right;">339</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.046</td>
+<td style="text-align: right;">0.034</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.03</td>
+<td style="text-align: right;">366</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.050</td>
+<td style="text-align: right;">0.052</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.63</td>
+<td style="text-align: right;">232</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">-0.038</td>
+<td style="text-align: right;">0.052</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.72</td>
+<td style="text-align: right;">228</td>
+<td style="text-align: left;">Populism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.04</td>
+<td style="text-align: right;">957</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.009</td>
+<td style="text-align: right;">0.027</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.68</td>
+<td style="text-align: right;">860</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.088</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.98</td>
+<td style="text-align: right;">312</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.064</td>
+<td style="text-align: right;">0.041</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.37</td>
+<td style="text-align: right;">333</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.012</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.33</td>
+<td style="text-align: right;">519</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.021</td>
+<td style="text-align: right;">0.037</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.31</td>
+<td style="text-align: right;">511</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.041</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.91</td>
+<td style="text-align: right;">310</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.041</td>
+<td style="text-align: right;">0.038</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.93</td>
+<td style="text-align: right;">306</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.115</td>
+<td style="text-align: right;">0.050</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.31</td>
+<td style="text-align: right;">209</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">-0.107</td>
+<td style="text-align: right;">0.050</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.57</td>
+<td style="text-align: right;">205</td>
+<td style="text-align: left;">Authoritarianism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.064</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.32</td>
+<td style="text-align: right;">988</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Full Sample</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">-0.054</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.01</td>
+<td style="text-align: right;">969</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.060</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.65</td>
+<td style="text-align: right;">355</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Independents</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">-0.058</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.19</td>
+<td style="text-align: right;">345</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.040</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.13</td>
+<td style="text-align: right;">623</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Partisans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.040</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.12</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.009</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.95</td>
+<td style="text-align: right;">342</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Democrats</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.036</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">9.21</td>
+<td style="text-align: right;">369</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">Without Controls</td>
+<td style="text-align: right;">-0.016</td>
+<td style="text-align: right;">0.058</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.81</td>
+<td style="text-align: right;">235</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Republicans</td>
+<td style="text-align: left;">With Controls</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.059</td>
+<td style="text-align: left;">MSE-optimal</td>
+<td style="text-align: right;">8.86</td>
+<td style="text-align: right;">231</td>
+<td style="text-align: left;">Nativism</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="discontinuity-plots" class="level2">
+<h2 class="anchored" data-anchor-id="discontinuity-plots">Discontinuity Plots</h2>
+<p>In this section, I include all 15 of the discontinuity plots, organized by the specific subgroup to which they refer</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-discontinuityplot-full" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-discontinuityplot-full-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-discontinuityplot-full-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-discontinuityplot-full-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Discontinuity in Liberal Attitudes at Age 26 (Full Sample, First Degree Polynomial)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-discontinuityplot-independents" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-discontinuityplot-independents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-discontinuityplot-independents-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-discontinuityplot-independents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Discontinuity in Liberal Attitudes at Age 26 (Independents Subgroup, First Degree Polynomial)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-discontinuityplot-partisans" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-discontinuityplot-partisans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-discontinuityplot-partisans-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" data-fig-pos="H">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-discontinuityplot-partisans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Discontinuity in Liberal Attitudes at Age 26 (Partisan Subgroup, First Degree Polynomial)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-discontinuityplot-democrats" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-discontinuityplot-democrats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-discontinuityplot-democrats-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" data-fig-pos="H">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-discontinuityplot-democrats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Discontinuity in Liberal Attitudes at Age 26 (Democrat Subgroup, First Degree Polynomial)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-discontinuityplot-republicans" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-discontinuityplot-republicans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="OnlineAppendix_files/figure-html/fig-discontinuityplot-republicans-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" data-fig-pos="H">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-discontinuityplot-republicans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Discontinuity in Liberal Attitudes at Age 26 (Republican Subgroup, First Degree Polynomial)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="robustness-checks" class="level2">
+<h2 class="anchored" data-anchor-id="robustness-checks">Robustness Checks</h2>
+<p>I present the robustness checks conducted the two models (Simple vs Controls) and for the three different RD estimates (Conventional, Bias-Adjusted, Bias-Adjusted with Robust SEs). I first present them for the full sample and then for the different subgroup. Due to their large number, however, they are quite difficult to navigate.</p>
+<p>To narrow them down a bit I only focus on outcomes where there was at least one significant result (i.e., <em>not</em> populism) and across groups that also had at least one significant result (i.e., <em>not</em> partisans or democrats)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-3.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-4.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-5.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-6.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-7.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-8.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-9.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-10.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-11.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-12.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-13.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-14.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-15.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-16.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-17.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-18.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-19.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-20.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-21.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-22.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-23.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-24.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-25.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-26.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-27.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-28.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-29.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-30.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-31.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-32.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-33.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-34.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-35.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="OnlineAppendix_files/figure-html/unnamed-chunk-2-36.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-calonico2025" class="csl-entry" role="listitem">
+Calonico, Sebastian, Matias D. Cattaneo, and Max H. Farrell. 2025. <em>Rdrobust: Robust Data-Driven Statistical Inference in Regression-Discontinuity Designs</em>. <a href="https://cran.r-project.org/web/packages/rdrobust/index.html">https://cran.r-project.org/web/packages/rdrobust/index.html</a>.
+</div>
+<div id="ref-taber2018" class="csl-entry" role="listitem">
+Taber, Keith S. 2018. <span>“The Use of Cronbach<span>’</span>s Alpha When Developing and Reporting Research Instruments in Science Education.”</span> <em>Research in Science Education</em> 48 (6): 12731296. <a href="https://doi.org/10.1007/s11165-016-9602-2">https://doi.org/10.1007/s11165-016-9602-2</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Of course, this version can take a linear form; however, it is also generalizable to higher polynomial degrees.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>This might seem counter-intuitive, since the group of interest (young voters) becomes, in a sense, the ‘control group’. This is due to the specific design of the R package used (rdrobust), which estimates causal effects when the running variable crosses the cut-off.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
